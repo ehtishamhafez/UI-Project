@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Rubik, sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background: black;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  display: flex;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  position: static;
+}
+
+.games-heading {
+  font-size: 50px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.game-title {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+
+header h1 {
+  font-size: 50px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.menu {
+  text-align: center;
+  line-height: 350%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 30px;
+  color: white;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+button {
+  background-color: red;
+  padding: 15px 35px;
+  color: white;
+  margin: auto;
+  outline: none;
+  border: none;
+}
+
+.row-item {
+  float: left;
+  width: 50%;
+  height: inherit;
+}
+
+.reviews-section {
+  float: left;
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  align-items: center;
+}
+
+.reviews-section p {
+  width: 70%;
+}
+
+.reviews-section h2 {
+  font-size: 20px;
+  color: white;
+}
+
+.level-text {
+  margin: auto;
+  width: 85%;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.center {
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+}
+.heading {
+  font-size: 4vw;
+  color: white;
+}
+
+.main-heading {
+  font-size: 80px;
+  color: white;
+  align-self: center;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  line-height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading2 {
+  font-size: 50px;
+  color: white;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: grey;
+  padding: 10px 10px 20px;
+}
+
+.video-section video {
+  width: 100%;
+  padding: 10%;
+  background-image: url("/Graphics/h2-background-img-3.jpg");
+  background-repeat: repeat;
+}
+
+.subscribe {
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 400px;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+}
+
+.subscribe input {
+  padding: 9px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  flex: 90%;
+  background: rgb(0, 0, 0);
+  margin-left: 0px;
+  color: white;
+  margin-right: auto;
+}
+
+.subscribe a img {
+  filter: invert(100%);
+  flex: 10%;
+  margin-top: 8px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.sociallinks .menu a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+}
+
+.sociallinks .menu a img {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 760px) {
+  .row-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .heading {
+    font-size: 8vw;
+  }
+
+  header .menu {
+    display: none;
+  }
+
+  .reviews-section p {
+    width: 85%;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    color: grey;
+    padding: 10px 10px 20px;
+  }
+  .main-heading {
+    font-size: 35px;
+  }
+  .subscribe {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .games-heading {
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .column img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .column h2 {
+    font-size: 16px;
+  }
+
+  .column a img {
+    width: 120px;
+    height: 40px;
+  }
+
+  .main-heading {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-heading {
+    font-size: 50px;
+  }
+  header .menu {
+    display: none;
+  }
+
+  header {
+    background: black;
+    align-content: center;
+    text-align: center;
+    height: 8vh;
+  }
+  header .logo {
+    margin-left: auto;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 680px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .games-heading {
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .column img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .column h2 {
+    font-size: 15px;
+  }
+
+  .column a img {
+    width: 110px;
+    height: 35px;
+  }
+
+  .menu a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .main-heading {
+    font-size: 35px;
+  }
+  .main-heading button {
+    margin-top: -200px;
+  }
+}
