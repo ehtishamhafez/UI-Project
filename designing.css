@@ -23,6 +23,28 @@ footer {
   position: static;
 }
 
+.closeimg {
+  margin: 25px;
+}
+
+.closeimg img {
+  filter: invert(100%);
+  width: 25px;
+  height: 25px;
+}
+
+.top-section div {
+  background: url(Graphics/hero-image.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0px;
+  height: 800px;
+  top: 0;
+}
+
 .games-heading {
   font-size: 50px;
   color: white;
@@ -78,9 +100,16 @@ nav {
   color: white;
 }
 
+.menu a img {
+  filter: invert(100%);
+  width: 25px;
+  height: 25px;
+}
+
 .logo img {
   width: 40px;
   height: 40px;
+  margin: 20px;
 }
 
 button {
@@ -158,7 +187,7 @@ button {
 .video-section video {
   width: 100%;
   padding: 10%;
-  background-image: url("/Graphics/h2-background-img-3.jpg");
+  background-image: url("Graphics/h2-background-img-3.jpg");
   background-repeat: repeat;
 }
 
@@ -238,6 +267,10 @@ button {
     width: 85%;
   }
 
+  .section-games {
+    background: rgb(43, 43, 43);
+  }
+
   .paragraph {
     font-size: 16px;
     color: grey;
@@ -246,6 +279,7 @@ button {
   .main-heading {
     font-size: 35px;
   }
+
   .subscribe {
     margin-top: 100px;
   }
