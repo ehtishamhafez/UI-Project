@@ -286,7 +286,41 @@ button {
   }
 }
 
+.play-btn {
+  background-color: #666;
+  border: medium none;
+  color: rgb(240, 240, 240);
+  display: block;
+  font-size: 500px;
+  left: 0;
+  margin: 0 auto;
+  padding: 8px 16px;
+  position: static;
+  right: 0;
+  top: 50%;
+  z-index: 100;
+}
+
+.row-container {
+  height: 700px;
+}
+
+@media (max-width: 1700px) {
+  .row-container {
+    height: 540px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .row-container {
+    height: 500px;
+  }
+}
+
 @media (max-width: 1000px) {
+  .row-container {
+    height: 300px;
+  }
   .column {
     flex: 50%;
     max-width: 50%;
@@ -320,6 +354,9 @@ button {
 }
 
 @media (max-width: 1200px) {
+  .row-container {
+    height: 450px;
+  }
   .main-heading {
     font-size: 50px;
   }
