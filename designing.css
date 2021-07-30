@@ -119,6 +119,7 @@ button {
   margin: auto;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .row-item {
